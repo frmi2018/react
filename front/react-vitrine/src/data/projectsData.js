@@ -1,42 +1,42 @@
 export const projectsData = [
   {
     id: 1,
-    title: "Casta",
-    date: "Janvier 2020",
-    languages: ["React", "Php", "Sass"],
-    infos:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas cumque labore suscipit, pariatur laboriosam autem omnis saepe quisquam enim iste.",
-    img: "./assets/img/projet-2.jpg",
-    link: "http://www.google.com",
-  },
-  {
-    id: 2,
-    title: "Lyon Béton",
-    date: "Mars 2020",
-    languages: ["Symfony", "Vue"],
+    title: "Vinted",
+    date: "mai 2021",
+    languages: ["React", "Nodejs"],
     infos:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas cumque labore suscipit, pariatur laboriosam autem omnis saepe quisquam enim iste.",
     img: "./assets/img/projet-1.jpg",
-    link: "http://www.google.com",
+    link: "https://vinted-frmi.netlify.app/",
+  },
+  {
+    id: 2,
+    title: "Gamepad",
+    date: "Avril 2021",
+    languages: ["React", "Nodejs"],
+    infos:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas cumque labore suscipit, pariatur laboriosam autem omnis saepe quisquam enim iste.",
+    img: "./assets/img/projet-2.jpg",
+    link: "https://frmi-gamepad.netlify.app/",
   },
   {
     id: 3,
-    title: "Everpost",
+    title: "Marvel",
     date: "Avril 2020",
-    languages: ["Wordpress", "Php", "React"],
+    languages: ["React", "Nodejs"],
     infos:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas cumque labore suscipit, pariatur laboriosam autem omnis saepe quisquam enim iste.",
     img: "./assets/img/projet-3.jpg",
-    link: "http://www.google.com",
+    link: "https://frmi-marvel-api.netlify.app/",
   },
   {
     id: 4,
-    title: "Creative Dev",
-    date: "Juillet 2020",
-    languages: ["Vue", "Php"],
+    title: "Me",
+    date: "Mars 2021",
+    languages: ["Wordpress"],
     infos:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas cumque labore suscipit, pariatur laboriosam autem omnis saepe quisquam enim iste.",
     img: "./assets/img/projet-4.jpg",
-    link: "http://www.google.com",
+    link: "http://michaudfranck.ovh/",
   },
 ];
