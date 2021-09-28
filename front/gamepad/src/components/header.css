@@ -1,0 +1,63 @@
+.header {
+  height: 77px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 5vh;
+}
+
+.header-div1 {
+  display: flex;
+  align-items: center;
+}
+
+.header-div1 .header-logo-container {
+  width: 32px;
+  height: 32px;
+}
+
+.header-div1 .header-logo-container img {
+  width: 32px;
+  height: 32px;
+  transform: scale(1.5);
+}
+
+.gamepad {
+  font-size: 34px;
+  line-height: 45px;
+}
+
+.header-div2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mycollection {
+  font-size: 20px;
+  line-height: 27px;
+}
+
+.button-pink {
+  width: 85px;
+  height: 37px;
+  background-color: var(--GPpink);
+  border-radius: 8px;
+  box-shadow: 0px 4px 4px rgba(255, 70, 85, 0.25);
+  margin-left: 30px;
+  text-align: center;
+}
+
+.button-pink:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.button-pink-txt {
+  font-size: 20px;
+  line-height: 37px;
+}
+.line-top-pink {
+  border-bottom: 2px solid var(--GPpink);
+  margin-bottom: 45px;
+}

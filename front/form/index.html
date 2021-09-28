@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Import CSS -->
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- Import fonts google.com -->
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+    </style>
+    <!-- Import form.js -->
+    <script src="./assets/js/form.js"></script>
+    <!-- Import de axios pour envoyer le formulaire -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    <title>Formulaire exercice FullStack</title>
+  </head>
+
+  <body>
+    <form id="contactForm">
+      <h1>Formulaire de contact</h1>
+      <input id="firstname" type="text" placeholder="Prénom" name="firstname" />
+      <input id="lastname" type="text" placeholder="Nom" name="lastname" />
+      <input id="email" type="text" placeholder="Email" name="email" />
+      <input id="subject" type="text" placeholder="Sujet" name="subject" />
+      <textarea
+        id="message"
+        placeholder="Votre message ici"
+        name="message"
+        style="resize: none"
+      ></textarea>
+      <input id="submit" type="submit" value="Envoyer le message" />
+    </form>
+  </body>
+</html>

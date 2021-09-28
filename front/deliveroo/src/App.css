@@ -1,0 +1,11 @@
+.App {
+  background-color: #f3f5f5;
+}
+
+.content-center {
+  border-bottom: 1px solid #e9ebeb;
+  margin: 0 auto;
+  display: flex;
+  width: 96vw;
+  max-width: 1200px;
+}

@@ -1,0 +1,71 @@
+.login-div0 {
+  margin: 0 5vh;
+  min-height: 100vh;
+}
+
+.login-div1 {
+  background-color: rgba(51, 52, 54, 1);
+  margin: 0 auto;
+  display: flex;
+  width: 800px;
+  height: 531px;
+}
+
+/* colonne droite */
+.login-div3 {
+  border-left: 1px solid var(--GPpink);
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+/* formulaire */
+.login-div3 form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.login-txt1 {
+  font-size: 32px;
+  line-height: 43px;
+  position: relative;
+}
+.login-txt3 {
+  font-size: 12px;
+  line-height: 16px;
+}
+.login-title {
+  margin-bottom: 58px;
+}
+
+/* input container */
+.login-div5 {
+  width: 355px;
+  height: 45px;
+  border-radius: 8px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25);
+  padding: 0 2vh;
+  margin-bottom: 11px;
+}
+/* input */
+.login-div5 input {
+  color: var(--GPtextgrey);
+  font-size: 17px;
+  line-height: 23px;
+  border: none;
+  outline: none;
+  flex: 1;
+}
+/* rectangle 36 */
+.rectangle36 {
+  width: 100%;
+  height: 39px;
+  background-color: var(--GPpink);
+  border-radius: 8px;
+  text-align: center;
+}

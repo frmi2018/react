@@ -1,0 +1,42 @@
+.item {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item-content {
+  background-color: #fff;
+  width: 50%;
+  height: 160px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.item-description {
+  flex: 1;
+}
+
+h3 {
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.item-description p {
+  margin: 0;
+  height: 68px;
+  overflow: hidden;
+  margin-bottom: 5px;
+}
+
+.item-description div {
+  flex: 1;
+}
+
+.item img {
+  height: 130px;
+  width: 130px;
+  border-radius: 5px;
+  object-fit: cover;
+}

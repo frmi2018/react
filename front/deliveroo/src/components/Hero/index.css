@@ -1,0 +1,29 @@
+.hero {
+  height: 230px;
+  border-bottom: 1px solid #e9ebeb;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  width: 96vw;
+  max-width: 1200px;
+  flex: 1;
+}
+
+h1 {
+  font-size: 2em;
+  text-align: left;
+}
+
+.hero p {
+  color: #868a8a;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.hero img {
+  width: 350px;
+  height: 200px;
+  border-radius: 5px;
+}

@@ -1,0 +1,34 @@
+.review-section-div0 {
+  width: 700px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.review-section-div1 {
+  display: flex;
+  justify-content: center;
+}
+.reviews {
+  font-size: 23px;
+  line-height: 31px;
+  margin-bottom: 11px;
+}
+.nb-review {
+  font-size: 11px;
+  line-height: 15px;
+  margin-left: 4px;
+}
+.review-section-txt1 {
+  font-size: 22px;
+  line-height: 19px;
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+.review-section-txt2 {
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 600;
+  text-align: center;
+  margin: 57px 0 62px 0;
+}

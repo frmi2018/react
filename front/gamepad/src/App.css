@@ -1,0 +1,13 @@
+.App {
+  background-color: var(--GPblack);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  width: 1200px;
+  height: 1699px;
+  background-color: var(--GPgrey);
+  margin: 0 auto;
+}

@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo:wght@400&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --GPpink: #ff4655;
+  --GPblack: #171719;
+  --GPblackicon: #131c2e;
+  --GPgrey: #1f2023;
+  --GPtextgrey: #6f6f6f;
+  --GPlinkgrey: #c4c4c4;
+  --GPtitlegrey: #676767;
+  --GPbglogo: #e5e5e5;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.exo {
+  font-family: "Exo", sans-serif;
+  font-style: normal;
+  color: white;
+}
+
+.fw500 {
+  font-weight: 500;
+}
+
+.fw400 {
+  font-weight: 400;
+}
+
+a:link {
+  text-decoration: none;
+}

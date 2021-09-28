@@ -1,0 +1,49 @@
+.mycollection-txt1 {
+  font-size: 62px;
+  line-height: 82px;
+  position: relative;
+}
+
+.mycollection-title {
+  margin-bottom: 58px;
+}
+
+.mycollection-line {
+  background-color: var(--GPpink);
+  width: 282px;
+  height: 8px;
+  position: absolute;
+  left: 0px;
+  bottom: 16px;
+  mix-blend-mode: lighten;
+}
+
+.mycollection-div0 {
+  margin: 0 5vh;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.mycollection-div1 {
+  height: 250px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.mycollection-div2 {
+  position: relative;
+  margin-right: 8px;
+}
+
+.turnedin-pink {
+  color: var(--GPpink);
+  font-size: 2em;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.turnedin-pink:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}

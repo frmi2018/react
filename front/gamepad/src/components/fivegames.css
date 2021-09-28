@@ -1,0 +1,40 @@
+.five-games-div0 {
+  height: 298px;
+}
+
+.five-games-txt {
+  height: 40px;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.five-games-div1 {
+  height: 250px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-main {
+  width: 200px;
+  height: 250px;
+  position: relative;
+}
+
+.card-main img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+
+.card-main img:hover {
+  opacity: 0.5;
+}
+
+.gameName {
+  position: absolute;
+  left: 5%;
+  right: 5%;
+  bottom: 5%;
+  line-height: 23px;
+  font-size: 17px;
+}
