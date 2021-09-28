@@ -1,0 +1,24 @@
+a {
+  text-decoration: none;
+}
+
+.input-design-default {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: max-content;
+  margin: 20px auto;
+  padding: 20px;
+  cursor: pointer;
+  border: 1px solid #09b1ba;
+  border-radius: 4px;
+  color: #09b1ba;
+}
+
+.hide-input-file {
+  display: none;
+}
+
+.bi.bi-check {
+  font-size: 50px;
+}

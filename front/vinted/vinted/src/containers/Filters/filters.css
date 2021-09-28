@@ -1,0 +1,21 @@
+.form-inline {
+  display: flex;
+  align-items: center;
+}
+
+.form-inline-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 548px) {
+  .form-inline {
+    flex-direction: column;
+  }
+
+  .form-inline-right {
+    width: 100%;
+    margin: 0.5em 0;
+  }
+}
