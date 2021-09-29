@@ -1,7 +1,17 @@
 import React, { useEffect } from "react";
 
 const DynamicText = () => {
-  let array = ["simple", "clear", "smart", "strong"];
+  let array = [
+    "mongodb",
+    "express",
+    "react",
+    "nodejs",
+    "sass",
+    "redux",
+    "TS",
+    "axios",
+    "nextjs",
+  ];
   let wordIndex = 0;
   let letterIndex = 0;
 
@@ -46,7 +56,7 @@ const DynamicText = () => {
 
   return (
     <span className="dynamic-text">
-      <span className="simply">simply</span>
+      <span className="simply">stack</span>
       <span id="text-target"></span>
     </span>
   );

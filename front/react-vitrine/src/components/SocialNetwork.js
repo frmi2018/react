@@ -18,18 +18,18 @@ const SocialNetwork = () => {
     <div className="social-network">
       <ul className="content">
         <a
-          href="https://www.facebook.com"
+          href="https://www.linkedin.com/in/franck-michaud-b60791179/"
           target="_blank"
           rel="noopener noreferrer"
           className="hover"
           onMouseOver={anim}
         >
           <li>
-            <i className="fab fa-facebook-f"></i>
+            <i className="fab fa-linkedin"></i>
           </li>
         </a>
         <a
-          href="https://www.twitter.com"
+          href="https://twitter.com/michaudfranck"
           target="_blank"
           rel="noopener noreferrer"
           className="hover"
@@ -40,14 +40,14 @@ const SocialNetwork = () => {
           </li>
         </a>
         <a
-          href="https://www.instagram.com"
+          href="https://github.com/frmi2018"
           target="_blank"
           rel="noopener noreferrer"
           className="hover"
           onMouseOver={anim}
         >
           <li>
-            <i className="fab fa-instagram"></i>
+            <i className="fab fa-github"></i>
           </li>
         </a>
       </ul>

@@ -6,7 +6,7 @@ export const projectsData = [
     languages: ["React", "Nodejs"],
     infos:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas cumque labore suscipit, pariatur laboriosam autem omnis saepe quisquam enim iste.",
-    img: "./assets/img/projet-1.jpg",
+    img: "./assets/img/vinted.jpg",
     link: "https://vinted-frmi.netlify.app/",
   },
   {
@@ -16,7 +16,7 @@ export const projectsData = [
     languages: ["React", "Nodejs"],
     infos:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas cumque labore suscipit, pariatur laboriosam autem omnis saepe quisquam enim iste.",
-    img: "./assets/img/projet-2.jpg",
+    img: "./assets/img/gamepad.jpg",
     link: "https://frmi-gamepad.netlify.app/",
   },
   {
@@ -26,7 +26,7 @@ export const projectsData = [
     languages: ["React", "Nodejs"],
     infos:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas cumque labore suscipit, pariatur laboriosam autem omnis saepe quisquam enim iste.",
-    img: "./assets/img/projet-3.jpg",
+    img: "./assets/img/marvel.jpg",
     link: "https://frmi-marvel-api.netlify.app/",
   },
   {
@@ -36,7 +36,7 @@ export const projectsData = [
     languages: ["Wordpress"],
     infos:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas cumque labore suscipit, pariatur laboriosam autem omnis saepe quisquam enim iste.",
-    img: "./assets/img/projet-4.jpg",
+    img: "./assets/img/wordpress.jpg",
     link: "http://michaudfranck.ovh/",
   },
 ];
