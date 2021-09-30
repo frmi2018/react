@@ -13,4 +13,4 @@ To learn
 [Framer](https://www.framer.com/)  
 [emailJS](https://www.emailjs.com/docs/examples/reactjs/)
 
-<img src="https://github.com/frmi2018/react/blob/main/front/react-vitrine/public/assets/img/vitrine.jpg" width="1280" height=auto>
+<img src="https://github.com/frmi2018/react/blob/main/front/react-vitrine/vitrine.jpg" width="1280" height=auto>
