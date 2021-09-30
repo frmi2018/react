@@ -1,6 +1,17 @@
-# Gamepad FRMI API
+# Gamepad
 
-## User
+📅 started in april 2021 during my training at https://www.lereacteur.io/  
+🚧 in progress...
+
+🌐 see online at https://frmi-gamepad.netlify.app/
+
+## Frontend
+
+https://github.com/frmi2018/react/tree/main/front/gamepad
+
+# 🔶 API 🔶
+
+## 🔶 User
 
 ### /user/signup (POST)
 
@@ -12,9 +23,6 @@ Create a new user
 | `password` | string | Yes      |
 | `username` | string | Yes      |
 
-<br>
-<br>
-
 ### /user/login (POST)
 
 Log a user
@@ -24,11 +32,7 @@ Log a user
 | `email`    | string | Yes      |
 | `password` | string | Yes      |
 
-<br>
-<br>
-<br>
-
-## Reviews
+## 🔶 Reviews
 
 ### /user/postreview (POST)
 
@@ -41,9 +45,6 @@ Create a new review
 | `author`   | string | Yes      |
 | `username` | string | Yes      |
 
-<br>
-<br>
-
 ### /user/getreview (GET)
 
 Get a review
@@ -52,11 +53,7 @@ Get a review
 | ---------- | ------ | -------- |
 | `gameId`    | string | Yes     |
 
-<br>
-<br>
-<br>
-
-## Favoris
+## 🔶 Favoris
 
 ### /user/postfavoris (POST)
 
@@ -67,9 +64,6 @@ Add a favori
 | `userId`   | string | Yes      |
 | `gameId`   | string | Yes      |
 
-<br>
-<br>
-
 ### /user/getfavoris (GET)
 
 Get favoris
@@ -78,7 +72,3 @@ Get favoris
 | ---------- | ------ | -------- |
 | `userId`   | string | Yes      |
 | `gameId`   | string | Yes      |
-
-<br>
-<br>
-<br>
