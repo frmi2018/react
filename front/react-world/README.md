@@ -18,9 +18,3 @@ To learn [React](https://fr.reactjs.org/) and make my first projet with [SASS](h
 - use [API REST COUNTRIES](https://restcountries.eu/#rest-countries)
 - features : radio and range input
 - add features : search engine
-
-## Get the Code
-
-```
-$ git clone https://github.com/frmi2018/React-World.git
-```
