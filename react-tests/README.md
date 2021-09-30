@@ -1,4 +1,4 @@
-# Some React tests
+# React tests
 
 src-hooks1 : counter
 
