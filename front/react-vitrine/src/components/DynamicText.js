@@ -12,10 +12,11 @@ const DynamicText = () => {
     "axios",
     "nextjs",
   ];
-  let wordIndex = 0;
-  let letterIndex = 0;
 
   useEffect(() => {
+    let wordIndex = 0;
+    let letterIndex = 0;
+
     const target = document.getElementById("text-target");
 
     const createLetter = () => {
