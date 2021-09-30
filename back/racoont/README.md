@@ -1,26 +1,22 @@
-# 🔶 racoont-back 🔶
+# Racoont
 
 📅 started in September 2021  
 ✅ finish
 
-## racoont-front
+## Frontend
 
-https://github.com/frmi2018/racoont-back/tree/main/client
+https://github.com/frmi2018/react/tree/main/front/racoont
 
 ## About
 
 Realized by following a tutorial on Youtube by Fromscratch.  
 Link to the video tutoriel : https://www.youtube.com/watch?v=SUPDFHuvhRc&t=0s
 
-## API
+# 🔶 API 🔶
 
-<br>
-🔶 🔶 User 🔶 🔶
-<br>
-<br>
+## 🔶 User  
 
-### Route : api/user/register
-
+api/user/register  
 Method : POST  
 inscription
 
@@ -30,11 +26,7 @@ inscription
 | `email`    | string | Yes      |
 | `password` | string | Yes      |
 
-<br>
-<br>
-
-### Route : api/user/login
-
+api/user/login  
 Method : POST  
 connection
 
@@ -43,27 +35,15 @@ connection
 | `email`    | string | Yes      |
 | `password` | string | Yes      |
 
-<br>
-<br>
-
-### Route : api/user/logout
-
+api/user/logout  
 Method : GET  
 Déconnection
 
-<br>
-<br>
-
-### Route : api/user/
-
+api/user/  
 Method : GET  
 Affiche la liste des utilisateurs
 
-<br>
-<br>
-
-### Route : api/user/:id
-
+api/user/:id  
 Method : GET  
 Affiche les infos d'un utilisateur
 
@@ -71,11 +51,7 @@ Affiche les infos d'un utilisateur
 | ------ | ------ | -------- |
 | `id`   | string | Yes      |
 
-<br>
-<br>
-
-### Route : api/user/:id
-
+api/user/:id  
 Method : PUT  
 Mise à jour d'un utilisateur
 
@@ -87,11 +63,7 @@ Mise à jour d'un utilisateur
 | ----- | ------ | -------- |
 | `bio` | string | Yes      |
 
-<br>
-<br>
-
-### Route : api/user/:id
-
+api/user/:id  
 Method : DELETE  
 Suppression d'un utilisateur
 
@@ -99,11 +71,7 @@ Suppression d'un utilisateur
 | ------ | ------ | -------- |
 | `id`   | string | Yes      |
 
-<br>
-<br>
-
-### Route : api/user/upload
-
+api/user/upload  
 Method : POST  
 Ajouter une photo de profil
 
@@ -112,13 +80,9 @@ Ajouter une photo de profil
 | `pseudo`  | text | Yes      |
 | `file`    | file | Yes      |
 
-<br>
-🔶 🔶 Follow / unfollow 🔶 🔶
-<br>
-<br>
+## 🔶 Follow / unfollow
 
-### Route : api/user/:id
-
+api/user/:id  
 Method : PATCH  
 Suivre un utilisateur
 
@@ -130,11 +94,7 @@ Suivre un utilisateur
 | ------------ | ------ | -------- |
 | `idToFollow` | string | Yes      |
 
-<br>
-<br>
-
-### Route : api/user/:id
-
+api/user/:id  
 Method : PATCH  
 Arréter de suivre un utilisteur
 
@@ -146,21 +106,13 @@ Arréter de suivre un utilisteur
 | -------------- | ------ | -------- |
 | `idToUnfollow` | string | Yes      |
 
-<br>
-🔶 🔶 Post 🔶 🔶
-<br>
-<br>
+## 🔶 Post
 
-### Route : api/post/
-
+api/post/  
 Method : GET  
 Affiche la liste des posts
 
-<br>
-<br>
-
-### Route : api/post/
-
+api/post/  
 Method : POST  
 enregistre un post
 
@@ -171,11 +123,7 @@ enregistre un post
 | `video`    | string | No       |
 | `image`    | file   | No       |
 
-<br>
-<br>
-
-### Route : api/post/:id
-
+api/post/:id  
 Method : PUT  
 Mise à jour d'un post
 
@@ -187,11 +135,7 @@ Mise à jour d'un post
 | --------- | ------ | -------- |
 | `message` | string | Yes      |
 
-<br>
-<br>
-
-### Route : api/post/:id
-
+api/post/:id  
 Method : DELETE  
 Suppression d'un post
 
@@ -199,13 +143,9 @@ Suppression d'un post
 | ------ | ------ | -------- | ---------- |
 | `id`   | string | Yes      | id du post |
 
-<br>
-🔶 🔶 Like / unlike 🔶 🔶
-<br>
-<br>
+## 🔶 Like / unlike
 
-### Route : api/post/like-post/:id
-
+api/post/like-post/:id  
 Method : PATCH  
 like un post
 
@@ -217,11 +157,7 @@ like un post
 | -------- | ------ | -------- | ------- |
 | `likers` | string | Yes      | id user |
 
-<br>
-<br>
-
-### Route : api/post/unlike-post/:id
-
+api/post/unlike-post/:id  
 Method : PATCH  
 unlike un post
 
@@ -233,13 +169,9 @@ unlike un post
 | -------- | ------ | -------- | ------- |
 | `likers` | string | Yes      | id user |
 
-<br>
-🔶 🔶 Comment post 🔶 🔶
-<br>
-<br>
+## 🔶 Comment post
 
-### Route : api/post/comment-post/:id
-
+api/post/comment-post/:id  
 Method : PATCH  
 ajouter un commentaire
 
@@ -253,11 +185,7 @@ ajouter un commentaire
 | `commenterPseudo` | string | Yes      |
 | `text`            | string | Yes      |
 
-<br>
-<br>
-
-### Route : api/post/edit-comment-post/:id
-
+api/post/edit-comment-post/:id  
 Method : PATCH  
 editer un commentaire
 
@@ -270,11 +198,7 @@ editer un commentaire
 | `commenterId` | string | Yes      |
 | `text`        | string | Yes      |
 
-<br>
-<br>
-
-### Route : api/post/delete-comment-post/:id
-
+api/post/delete-comment-post/:id  
 Method : PATCH  
 supprimer un commentaire
 
@@ -285,6 +209,3 @@ supprimer un commentaire
 | Body          | Type   | Required |
 | ------------- | ------ | -------- |
 | `commenterId` | string | Yes      |
-
-<br>
-<br>
