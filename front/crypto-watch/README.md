@@ -12,12 +12,6 @@ To learn [Next.js](https://nextjs.org/learn) and [Tailwindcss](https://tailwindc
 
 <img src="./crypto.jpg" width="960" height=auto>
 
-## Get the Code
-
-```
-$ git clone https://github.com/frmi2018/crypto-watch.git
-```
-
 ## Getting Started
 
 First, run the development server:
