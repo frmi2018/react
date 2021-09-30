@@ -10,7 +10,7 @@ Link to the video tutoriel : https://www.youtube.com/watch?v=K3D2rjAUQ3o
 
 To learn [React](https://fr.reactjs.org/) and make my first projet with [SASS](https://sass-lang.com/)
 
-<img src="https://github.com/frmi2018/React-World/blob/main/country.JPG" width="960" height=auto>
+<img src="https://github.com/frmi2018/react/blob/main/front/react-world/country.JPG" width="960" height=auto>
 
 ## Infos
 
