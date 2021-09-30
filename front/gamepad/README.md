@@ -3,7 +3,7 @@
 📅 started in april 2021 during my training at https://www.lereacteur.io/  
 🚧 in progress...
 
-🌐 see online at https://frmi-marvel-api.netlify.app/
+🌐 see online at https://frmi-gamepad.netlify.app/
 
 ## Why ?
 
