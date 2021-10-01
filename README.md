@@ -1,5 +1,4 @@
 <img src="https://github.com/frmi2018/portfolio/blob/main/public/media/logos/react.png"  width="100" height=auto>
-React projects
 
 <br/>
 <br/>
