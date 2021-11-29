@@ -15,12 +15,16 @@ app.use(cors());
 
 // Package Mongoose
 const mongoose = require("mongoose");
-mongoose.connect(process.env.MONGODB_URI, {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-  useCreateIndex: true,
-});
-
+mongoose
+  .connect(process.env.MONGODB_URI, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+    useCreateIndex: true,
+  })
+  .then(() => {
+    console.log("Connected to MongoDB");
+  })
+  .catch((error) => console.log("Failed to connect to MongoDB", error));
 // Cloudinary
 const cloudinary = require("cloudinary").v2;
 cloudinary.config({

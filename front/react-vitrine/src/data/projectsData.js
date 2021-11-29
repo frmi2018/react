@@ -5,7 +5,7 @@ export const projectsData = [
     date: "mai 2021",
     languages: ["React", "Nodejs"],
     infos:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas cumque labore suscipit, pariatur laboriosam autem omnis saepe quisquam enim iste.",
+      "Projet MERN commencé lors de ma formation bootcamp au Reacteur. Je continue de le faire évoluer en m'inspirant des fonctionnalitées du site original.",
     img: "./assets/img/vinted.jpg",
     link: "https://vinted-frmi.netlify.app/",
   },
@@ -14,8 +14,7 @@ export const projectsData = [
     title: "Gamepad",
     date: "Avril 2021",
     languages: ["React", "Nodejs"],
-    infos:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas cumque labore suscipit, pariatur laboriosam autem omnis saepe quisquam enim iste.",
+    infos: "Projet MERN commencé lors de ma formation bootcamp au Reacteur.",
     img: "./assets/img/gamepad.jpg",
     link: "https://frmi-gamepad.netlify.app/",
   },
@@ -24,8 +23,7 @@ export const projectsData = [
     title: "Marvel",
     date: "Avril 2020",
     languages: ["React", "Nodejs"],
-    infos:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas cumque labore suscipit, pariatur laboriosam autem omnis saepe quisquam enim iste.",
+    infos: "Projet MERN commencé lors de ma formation bootcamp au Reacteur.",
     img: "./assets/img/marvel.jpg",
     link: "https://frmi-marvel-api.netlify.app/",
   },
@@ -34,8 +32,7 @@ export const projectsData = [
     title: "Me",
     date: "Mars 2021",
     languages: ["Wordpress"],
-    infos:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas cumque labore suscipit, pariatur laboriosam autem omnis saepe quisquam enim iste.",
+    infos: "Site test pour apprendre à utiliser le CMS Wordpress.",
     img: "./assets/img/wordpress.jpg",
     link: "http://michaudfranck.ovh/",
   },
