@@ -8,4 +8,4 @@
 
 ### Projets :  
 
-[See here](http://michaudfranck.ovh/wp-admin/post.php?post=227&action=edit)
+[See here](http://michaudfranck.ovh/?page_id=227)
