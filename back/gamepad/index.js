@@ -13,7 +13,7 @@ const cors = require("cors");
 app.use(cors());
 // Package Mongoose
 const mongoose = require("mongoose");
-mongoose.connect(process.env.MONGODB_URI, {
+mongoose.connect(process.env.MONGODB_URI + "/gamepad", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useCreateIndex: true,
@@ -33,7 +33,9 @@ app.get("/games", async (req, res) => {
   try {
     if (id) {
       await axios
-        .get(`https://api.rawg.io/api/games/${id}?key=${process.env.APIKEY}`)
+        .get(
+          `https://api.rawg.io/api/games/${id}?key=${process.env.API_KEY_GAMEPAD}`
+        )
         .then((response) => {
           const data = response.data;
           res.status(200).json(data);
@@ -45,7 +47,7 @@ app.get("/games", async (req, res) => {
       if (search === undefined) {
         await axios
           .get(
-            `https://api.rawg.io/api/games?key=${process.env.APIKEY}&page_size=${page_size}&page=${page}&ordering=${ordering}`
+            `https://api.rawg.io/api/games?key=${process.env.API_KEY_GAMEPAD}&page_size=${page_size}&page=${page}&ordering=${ordering}`
           )
           .then((response) => {
             const data = response.data;
@@ -57,7 +59,7 @@ app.get("/games", async (req, res) => {
       } else {
         await axios
           .get(
-            `https://api.rawg.io/api/games?key=${process.env.APIKEY}&page_size=${page_size}&page=${page}&search=${search}`
+            `https://api.rawg.io/api/games?key=${process.env.API_KEY_GAMEPAD}&page_size=${page_size}&page=${page}&search=${search}`
           )
           .then((response) => {
             const data = response.data;

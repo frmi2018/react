@@ -16,7 +16,7 @@ app.use(cors());
 // Package Mongoose
 const mongoose = require("mongoose");
 mongoose
-  .connect(process.env.MONGODB_URI, {
+  .connect(process.env.MONGODB_URI + "/vinted", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true,
@@ -29,12 +29,12 @@ mongoose
 const cloudinary = require("cloudinary").v2;
 cloudinary.config({
   cloud_name: process.env.CLOUD_NAME,
-  api_key: process.env.API_KEY,
-  api_secret: process.env.API_SECRET,
+  api_key: process.env.CLOUDINARY_API_KEY,
+  api_secret: process.env.CLOUDINARY_API_SECRET,
 });
 
 // Package Stripe (https://stripe.com/fr)
-const stripe = require("stripe")(process.env.STRIPE_SK);
+const stripe = require("stripe")(process.env.STRIPE_SECRET);
 
 // import des routes
 const userRoutes = require("./routes/user");
