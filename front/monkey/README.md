@@ -14,7 +14,7 @@ Realized by following a tutorial.
 
 ## Backend
 
-https://github.com/frmi2018/monkey/tree/main/server
+https://github.com/frmi2018/react/tree/main/back/monkey
 
 ## Why ?
 
