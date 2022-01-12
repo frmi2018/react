@@ -6,7 +6,7 @@ Registration form to learn how to use [Amazon Simple Email Service](https://aws.
 ✅ finish
 
 
-<img src="https://www.audviklabs.com/wp-content/uploads/2020/08/1_OF-1KQPi4APPFWPvY8VcEg.jpeg.webp" width="1280" height=auto>
+<img src="https://github.com/frmi2018/react/blob/main/front/register-aws-ses/images.png" width="480" height=auto>
 
 ## Dependencies
 
