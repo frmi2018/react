@@ -5,7 +5,8 @@ Registration form to learn how to use [Amazon Simple Email Service](https://aws.
 📅 started in October 2021  
 ✅ finish
 
-🌐 see online at
+
+<img src="https://www.audviklabs.com/wp-content/uploads/2020/08/1_OF-1KQPi4APPFWPvY8VcEg.jpeg.webp" width="1280" height=auto>
 
 ## Dependencies
 
@@ -40,5 +41,3 @@ front
 - [react-dom](https://www.npmjs.com/package/react-dom)
 - [express](https://www.npmjs.com/package/express)
 - [react-toastify](https://www.npmjs.com/package/react-toastify)
-
-<img src="" width="1280" height=auto>
